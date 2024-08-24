@@ -1,0 +1,19 @@
+package week03;
+
+public class methods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String firstName = "Bob";
+		String lastName = "Ross";
+		String fullName = createFullName(firstName, lastName);
+		
+		System.out.println(fullName);
+	}
+	//write the method
+	public static String createFullName(String firstname, String lastname) {
+		String fullname = x + " " + y;
+		return fullName;
+	}
+}
